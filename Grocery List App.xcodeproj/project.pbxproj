@@ -13,9 +13,20 @@
 		BDD34B6A29D4A44F006CFF20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD34B6829D4A44F006CFF20 /* Main.storyboard */; };
 		BDD34B6C29D4A451006CFF20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD34B6B29D4A451006CFF20 /* Assets.xcassets */; };
 		BDD34B6F29D4A451006CFF20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD34B6D29D4A451006CFF20 /* LaunchScreen.storyboard */; };
+		BDD34B7A29DBA79E006CFF20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDD34B7929DBA79E006CFF20 /* GoogleService-Info.plist */; };
+		BDD34B7E29DDCAF0006CFF20 /* CustomTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD34B7D29DDCAF0006CFF20 /* CustomTableView.swift */; };
+		BDD34B8029DDD14E006CFF20 /* GroceryItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD34B7F29DDD14E006CFF20 /* GroceryItemCell.swift */; };
+		BDD34B8229DE23D3006CFF20 /* ProductInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD34B8129DE23D3006CFF20 /* ProductInputView.swift */; };
+		BDD34B8429E37C31006CFF20 /* ProducInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD34B8329E37C31006CFF20 /* ProducInputViewController.swift */; };
+		BDD34B8F29E8A4C5006CFF20 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD34B8E29E8A4C4006CFF20 /* ListViewController.swift */; };
+		BDD34B9129E8A69F006CFF20 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD34B9029E8A69F006CFF20 /* ListCell.swift */; };
+		BDD34B9329E999B2006CFF20 /* GroceryItemEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD34B9229E999B2006CFF20 /* GroceryItemEditView.swift */; };
+		C583B71CA9ABF777C74FB08C /* Pods_Grocery_List_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2C9140AACAEFB6A7FCD710 /* Pods_Grocery_List_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042A167C812C4FD9F7304E61 /* Pods-Grocery List App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grocery List App.release.xcconfig"; path = "Target Support Files/Pods-Grocery List App/Pods-Grocery List App.release.xcconfig"; sourceTree = "<group>"; };
+		B98E0F2CEC83EB6443F59F99 /* Pods-Grocery List App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grocery List App.debug.xcconfig"; path = "Target Support Files/Pods-Grocery List App/Pods-Grocery List App.debug.xcconfig"; sourceTree = "<group>"; };
 		BDD34B5F29D4A44F006CFF20 /* Grocery List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocery List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD34B6229D4A44F006CFF20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDD34B6429D4A44F006CFF20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,15 @@
 		BDD34B6B29D4A451006CFF20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDD34B6E29D4A451006CFF20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDD34B7029D4A451006CFF20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDD34B7929DBA79E006CFF20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BDD34B7D29DDCAF0006CFF20 /* CustomTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableView.swift; sourceTree = "<group>"; };
+		BDD34B7F29DDD14E006CFF20 /* GroceryItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemCell.swift; sourceTree = "<group>"; };
+		BDD34B8129DE23D3006CFF20 /* ProductInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInputView.swift; sourceTree = "<group>"; };
+		BDD34B8329E37C31006CFF20 /* ProducInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProducInputViewController.swift; sourceTree = "<group>"; };
+		BDD34B8E29E8A4C4006CFF20 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		BDD34B9029E8A69F006CFF20 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		BDD34B9229E999B2006CFF20 /* GroceryItemEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemEditView.swift; sourceTree = "<group>"; };
+		CA2C9140AACAEFB6A7FCD710 /* Pods_Grocery_List_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grocery_List_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C583B71CA9ABF777C74FB08C /* Pods_Grocery_List_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FEFF7E2FA4CA90E1BF53334 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA2C9140AACAEFB6A7FCD710 /* Pods_Grocery_List_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BDD34B5629D4A44F006CFF20 = {
 			isa = PBXGroup;
 			children = (
 				BDD34B6129D4A44F006CFF20 /* Grocery List App */,
 				BDD34B6029D4A44F006CFF20 /* Products */,
+				F8894D3FFA3BC5FDCC7B0438 /* Pods */,
+				4FEFF7E2FA4CA90E1BF53334 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +87,9 @@
 		BDD34B6129D4A44F006CFF20 /* Grocery List App */ = {
 			isa = PBXGroup;
 			children = (
+				BDD34B7929DBA79E006CFF20 /* GoogleService-Info.plist */,
+				BDD34B9429E9A598006CFF20 /* Controllers */,
+				BDD34B7629D4A461006CFF20 /* UIs */,
 				BDD34B6229D4A44F006CFF20 /* AppDelegate.swift */,
 				BDD34B6429D4A44F006CFF20 /* SceneDelegate.swift */,
 				BDD34B6629D4A44F006CFF20 /* ViewController.swift */,
@@ -67,6 +101,36 @@
 			path = "Grocery List App";
 			sourceTree = "<group>";
 		};
+		BDD34B7629D4A461006CFF20 /* UIs */ = {
+			isa = PBXGroup;
+			children = (
+				BDD34B8129DE23D3006CFF20 /* ProductInputView.swift */,
+				BDD34B9229E999B2006CFF20 /* GroceryItemEditView.swift */,
+				BDD34B9029E8A69F006CFF20 /* ListCell.swift */,
+				BDD34B7F29DDD14E006CFF20 /* GroceryItemCell.swift */,
+				BDD34B7D29DDCAF0006CFF20 /* CustomTableView.swift */,
+			);
+			path = UIs;
+			sourceTree = "<group>";
+		};
+		BDD34B9429E9A598006CFF20 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDD34B8E29E8A4C4006CFF20 /* ListViewController.swift */,
+				BDD34B8329E37C31006CFF20 /* ProducInputViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F8894D3FFA3BC5FDCC7B0438 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B98E0F2CEC83EB6443F59F99 /* Pods-Grocery List App.debug.xcconfig */,
+				042A167C812C4FD9F7304E61 /* Pods-Grocery List App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDD34B7329D4A451006CFF20 /* Build configuration list for PBXNativeTarget "Grocery List App" */;
 			buildPhases = (
+				5DD20865CF74A12DDE4645AB /* [CP] Check Pods Manifest.lock */,
 				BDD34B5B29D4A44F006CFF20 /* Sources */,
 				BDD34B5C29D4A44F006CFF20 /* Frameworks */,
 				BDD34B5D29D4A44F006CFF20 /* Resources */,
+				7EF1F5B35DA9FD7A275A05E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD34B7A29DBA79E006CFF20 /* GoogleService-Info.plist in Resources */,
 				BDD34B6F29D4A451006CFF20 /* LaunchScreen.storyboard in Resources */,
 				BDD34B6C29D4A451006CFF20 /* Assets.xcassets in Resources */,
 				BDD34B6A29D4A44F006CFF20 /* Main.storyboard in Resources */,
@@ -133,13 +200,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5DD20865CF74A12DDE4645AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Grocery List App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EF1F5B35DA9FD7A275A05E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grocery List App/Pods-Grocery List App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grocery List App/Pods-Grocery List App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Grocery List App/Pods-Grocery List App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BDD34B5B29D4A44F006CFF20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD34B8029DDD14E006CFF20 /* GroceryItemCell.swift in Sources */,
 				BDD34B6729D4A44F006CFF20 /* ViewController.swift in Sources */,
+				BDD34B7E29DDCAF0006CFF20 /* CustomTableView.swift in Sources */,
+				BDD34B8429E37C31006CFF20 /* ProducInputViewController.swift in Sources */,
+				BDD34B8229DE23D3006CFF20 /* ProductInputView.swift in Sources */,
+				BDD34B9329E999B2006CFF20 /* GroceryItemEditView.swift in Sources */,
 				BDD34B6329D4A44F006CFF20 /* AppDelegate.swift in Sources */,
+				BDD34B9129E8A69F006CFF20 /* ListCell.swift in Sources */,
+				BDD34B8F29E8A4C5006CFF20 /* ListViewController.swift in Sources */,
 				BDD34B6529D4A44F006CFF20 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +398,7 @@
 		};
 		BDD34B7429D4A451006CFF20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B98E0F2CEC83EB6443F59F99 /* Pods-Grocery List App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +427,7 @@
 		};
 		BDD34B7529D4A451006CFF20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 042A167C812C4FD9F7304E61 /* Pods-Grocery List App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
